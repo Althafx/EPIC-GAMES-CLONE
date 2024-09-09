@@ -1,0 +1,604 @@
+
+/* advertisement */
+
+
+.advertisement {
+    width: 100%;
+    height: 460px;
+    background-color: rgb(19, 18, 18);
+    
+    
+}
+
+
+.qr-ad {
+    position: absolute;
+    left: 250px;
+    width: 700px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0.7;
+}
+.qr-ad:hover{
+    opacity: 1;
+    width: 710px;
+   
+}
+
+.fortnite-ad {
+    position: absolute;
+    left: 980px;
+    width: 700px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0.7;
+}
+.fortnite-ad:hover{
+    opacity: 1;
+    width: 710px;
+   
+}
+
+/* new games part one */
+
+.newgamesone{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(19, 18, 18);
+    
+    
+}
+
+.big-img{
+    position: absolute;
+    left: 250px;
+    background-color: white;
+    width: 1135px;
+    overflow: hidden;
+    height: 600px;
+    
+   
+   
+    
+}
+
+.big-img:hover .over{
+    transform: translatex(100px);
+    
+
+
+}
+
+
+.big{
+    
+    border-radius: 10px;
+    object-fit: contain;
+    transition:0.7s ;
+    cursor: pointer;
+    transform: scale(1.2);
+   
+  
+
+    
+}
+.big:hover{
+    
+    transform: translatey(-50px);
+    
+    
+      
+}
+
+
+
+.vertical-ad{
+    width: 100px;
+    height: 670px;
+    background-color: rgb(19, 18, 18);
+    position: absolute;
+    right: 0px;
+    top: 650px;
+    
+}
+
+.onegame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+
+}
+
+
+
+
+.twogame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+}
+
+.threegame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+}
+
+.fourgame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+}
+
+.fivegame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+}
+
+.sixgame{
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+    position: absolute;
+    right: 218px;
+    top: 5px;
+
+}
+
+
+
+
+.a{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+   
+}
+
+.b{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+
+}
+
+.c{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+
+}
+
+.d{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+
+}
+
+.e{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+
+}
+
+.f{
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 90px;
+
+}
+
+
+
+.one-row{
+    background-color:rgb(19, 18, 18);
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    width: 290px;
+    top: 0px;
+    border-radius: 20px;
+    transition: 0.2s;   
+    cursor: pointer;
+    
+
+}
+.one-row:hover{
+    background-color: grey;
+}
+
+.two-row{
+    background-color: rgb(19, 18, 18);
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    width: 290px;
+    top: 95px;
+    border-radius: 20px;
+    transition: 0.2s; 
+    cursor: pointer;
+    
+}
+.two-row:hover{
+    background-color: grey;
+}
+
+.three-row{
+    background-color: rgb(19, 18, 18);
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    width: 290px;
+    top: 190px;
+    border-radius: 20px;
+    transition: 0.2s; 
+    cursor: pointer;
+    
+}
+.three-row:hover{
+    background-color: grey;
+}
+
+.four-row{
+    background-color:  rgb(19, 18, 18);
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    width: 290px;
+    top: 285px;
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+.four-row:hover{
+    background-color: grey;
+}
+
+
+.five-row{
+    background-color:  rgb(65, 64, 64);
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    width: 290px;
+    top: 380px;
+    border-radius: 20px;
+    transition: 0.2s; 
+    cursor: pointer;
+    
+}
+.five-row:hover{
+    background-color: grey;
+}
+
+
+.six-row{
+    background-color:  rgb(19, 18, 18);
+    width: 290px;
+    height: 95px;
+    position: absolute;
+    right: 210px;
+    top: 475px;
+    border-radius: 20px;
+    transition: 0.2s; 
+    cursor: pointer;
+    
+}
+.six-row:hover{
+    background-color: grey;
+}
+
+.overtext{
+    color: white;
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    left: 300px;
+    top: 1030px;
+
+}
+
+.overtext:hover .buy-now{
+    transform: scale(1.1);
+    background-color: rgb(30, 184, 30);
+    color: white;
+
+}
+
+.game-text{
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+ 
+.description{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.big-price{
+    font-size: 13px;
+    margin-top: 30px;
+
+}
+
+.buy-now{
+    border: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.add-to{
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.add-icon{
+    
+    position: absolute;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+   
+}
+
+/* new games 2 row */
+
+.new-game-row{
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 210px;
+    height: 350px;
+    background-color:rgb(19, 18, 18);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+
+}
+
+
+
+.aa{
+    height:267px ;
+    border-radius: 10px;
+}
+
+.gametype1{
+    margin-top: 8px;
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.title1{
+    margin-top: 8px;
+    color:white;
+    font-weight: 700;
+    
+}
+
+.price1{
+    color: white;
+    margin-top: 12px;
+    font-size: 1px;
+}
+
+.aa{
+    height:267px ;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.gametype1{
+    margin-top: 8px;
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.title1{
+    margin-top: 8px;
+    color:white;
+    font-weight: 700;
+    
+}
+
+.price1{
+    color: white;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+
+.game1{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.game1:hover .aa{
+    transform: scale(1.05);
+}
+
+.game2{
+    display: flex;
+    flex-direction: column;
+
+}
+.game2:hover .aa{
+    transform: scale(1.05);
+}
+
+.game3{
+    display: flex;
+    flex-direction: column;
+   
+}
+.game3:hover .aa{
+    transform: scale(1.05);
+}
+.game4{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.game4:hover .aa{
+    transform: scale(1.05);
+}
+
+.game5{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.game5:hover .aa{
+    transform: scale(1.05);
+}
+
+.game6{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.game6:hover .aa{
+    transform: scale(1.05);
+}
+
+.game6{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.discover-text{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-bottom: -60px;
+    margin-top:30px ;
+}
+
+
+
+.discover-text2{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 250px;
+    margin-bottom: -60px;
+    margin-top:110px ;
+}
+
+
+
+/* final row */
+
+
+.free-games{
+    background-color:rgb(19, 18, 18);
+    width: 1450px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aaa{
+    height: 250px;
+    border-radius: 10px;
+    opacity: 0.7;
+    transition: 0.7s;
+    
+}
+.aaa:hover{
+    opacity: 1;
+}
+
+.game-name{
+    color: white;
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.price-game{
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.browse-button{
+    margin-top: 20px;
+    border: 0px;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+.browse-button:hover{
+    background-color: rgb(65, 65, 65); ;
+
+}
+
+.over{
+    width:400px ;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 200px;
+    left: 50px;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    transition: 0.8s;
+}

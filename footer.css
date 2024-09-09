@@ -1,0 +1,78 @@
+footer{
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    height: 500px;
+    
+}
+
+.footer-header{
+    width: 100%;
+    background-color:  rgb(27, 27, 27);
+    height: 90px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.facebook{
+    width:30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.twitter{
+    width:30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.youtube{
+    width:30px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.table{
+    width: 600px;
+    background-color: rgb(27, 27, 27);
+    height: 180px;
+    padding: 50px;
+    margin-top: -70px;
+
+
+}
+
+table{
+    color: white;
+    font-size: 14px;
+    border-spacing: 20px 6px;
+    margin-bottom: 40px;
+   
+    
+}
+
+th{
+    text-align: left;
+    color: grey;
+    
+}
+
+td{
+    white-space: nowrap;
+}
+
+
+
+
+
+.pa{
+    color: white;
+    width: 800px;
+    font-size: small;
+    margin-top: 40px;
+    margin-left: 20px;
+   
+}
+
+

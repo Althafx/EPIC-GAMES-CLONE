@@ -1,0 +1,301 @@
+body{
+    background-color: rgb(19, 18, 18);
+    font-family: inter,sanserif;
+    margin: 0px;
+    height: 200vh;
+    
+   
+
+}
+*{
+    margin: 0px;
+}
+
+
+/* first header */
+
+
+
+.header{
+    /* position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px; */
+    height: 60px;
+    background-color: rgb(27, 27, 29);
+}
+
+.headbar{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.logo{
+    
+    position: absolute;
+    
+}
+
+.imglogo{
+    position:relative;
+    top: 10px;
+    left: 10px;
+    height: 36px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+
+}
+.imglogo:hover{
+    opacity: 0.7;
+}
+
+.store{
+    color: white;
+    position:absolute;
+    left: 90px;
+    top: 17px;
+    font-family:inter,sanserif;
+    font-weight: 800;
+    transform: scale(1, 1.8);
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.store:hover{
+    color:rgb(189, 181, 181) ;
+
+}
+
+
+.support{
+    position:absolute;
+    left: 185px;
+    top: 17px;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.support:hover{
+    color:rgb(189, 181, 181) ;
+
+}
+
+
+.distribute{
+    position:absolute;
+    left: 275px;
+    top: 17px;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s;
+}
+.distribute:hover{
+    color:rgb(189, 181, 181) ;
+
+}
+
+    
+
+
+.globe{
+    position:absolute;
+    right:335px;
+    top: 17px;
+    color: white;
+    transition: 0.2s;
+
+}
+.globe:hover{
+    opacity: 0.6;
+
+}
+
+
+.profile{
+    position:absolute;
+    right:280px;
+    top: 11px;
+    color: white;
+    transition: 0.2s;
+
+}
+.profile:hover{
+    opacity: 0.6;
+
+}
+
+.username{
+    position:absolute;
+    right:145px;
+    top: 17px;
+    color: white;
+    font: optional;
+    transition: 0.2s;
+   
+}
+.username:hover{
+    color:rgb(189, 181, 181) ;
+
+}
+
+
+.download{
+    position:absolute;
+    right:25px;
+    top: 11px;
+   
+    
+
+}
+
+.dwnldbtn{
+    background-color:rgb(38, 187, 255);
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 33px;
+    color: rgb(18, 50, 63);
+    transition: 0.2s;
+   
+
+}
+.dwnldbtn:hover{
+    background-color: rgb(49, 231, 255);
+
+}
+
+
+.pfp{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+
+/* second header */
+
+.s-icon{
+    position: absolute;
+    width: 20px;
+    top: 46px;
+    left: 250px;
+    
+}
+
+.second-header {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(19, 18, 18);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.searchbar{
+    position: absolute;
+    left: 240px;
+    top: 35px;
+    
+    
+
+}
+.search-input::placeholder{
+    position: absolute;
+    left: 35px;
+    color: rgb(172, 172, 172);
+    font-weight: bold;
+}
+
+
+
+
+.discover{
+    position: absolute;
+    left: 500px;
+    top: 45px;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.browse{
+    position: absolute;
+    left: 590px;
+    top: 45px;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    transition: 0.3s;
+
+}
+.browse:hover{
+    color:rgb(253, 243, 243) ;
+
+}
+
+.news{
+    position: absolute;
+    left: 675px;
+    top: 45px;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    transition: 0.3s;
+    
+
+}
+.news:hover{
+    color:rgb(253, 243, 243) ;
+
+}
+
+.wishlist{
+    position: absolute;
+    right: 330px;
+    top: 45px;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+    transition: 0.3s;
+
+}
+.wishlist:hover{
+    color:rgb(253, 243, 243) ;
+
+}
+
+.cart{
+    position: absolute;
+    right: 275px;
+    top: 43px;;
+    color: rgb(172, 172, 172);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+.cart:hover{
+    color:rgb(253, 243, 243) ;
+
+}
+
+.search-input{
+    border-radius: 30px;
+    height: 40px;
+    width: 220px;
+    border: none;
+    background-color: rgb(53, 51, 51);
+}
+
+
+
+
+
+
+
